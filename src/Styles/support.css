@@ -1,4 +1,15 @@
 .container{
   width: 90%;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.material-button{
+  margin-top: 12px !important;
 }

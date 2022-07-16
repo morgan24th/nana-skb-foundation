@@ -1,11 +1,12 @@
 const data = 
     {
         company:{
-            name: 'Nana SKB Foundation'
+            name: 'Nana SKB Foundation',
+            aim: 'Our Mission and Vision'
         },
         introduction:{
             header: 'Introduction',
-            content: 'Nana SKB Foundation is a non-governmental and non-profit organization which was incorporated and commenced on 6th June, 2017 with the core objective centered on Education [Formal and Informal] and Child Protection. It is dedicated to the upliftment of the welfare of the youth, children and the vulnerable of Asokore Traditional Area in the Sekyere East District of Ashanti Region through the mobilization and efficient utilization of resources'
+            content: 'Nana SKB Foundation is a non-governmental and non-profit organization which was incorporated and commenced on 6th June, 2017 with the core objective centered on Education [Formal and Informal] and Child Protection. It is dedicated to the upliftment of the welfare of the youth, children and the vulnerable of Asokore Traditional Area in the Sekyere East District of Ashanti Region through the mobilization and efficient utilization of resources accessibility to keeing life education and sensitization on social vices.'
         },
         briefHistory:{
             header: 'Brief History',
@@ -46,9 +47,21 @@ const data =
                 href: '/contact'
             }
         ],
-        drawer: {
-            open: '../assets/icons/pull_down.png',
-            close: '../assets/icons/menu.png'
+        creator:{
+            name: 'Created by: Kreate-X',
+            phone: 'Tel: +233269543715',
+            email: 'Mail: kreate.ex@gmail.com',
+            visit: 'Visit us @: www.kreate-x.io'
+        },
+        client:{
+            copyRight: 'All rights reserved',
+            dateCreated: new Date().getFullYear(),
+            name: 'Nana SKB Foundation',
+            email: 'Mail: nanaskbfoundation@gmail.com',
+            phone: 'Tel: +233322495559',
+            gps: 'Address: AR-0022-0880',
+            offidceAddress: 'P.O.Box 173, Effiduase – Ashanti.',
+            location: 'Location: Asokore - Ashanti'
         }
     }
 

@@ -7,29 +7,29 @@ import '../Styles/support.css'
 
 const Header = ({active}) => {
   const [openMenu, setOpenMenu] = useState(false)
-  const {navs,drawer} = data
+  const {navs} = data
 
   return (
     <div className='bg-white shadow-2xl w-full sticky z-10 top-0'>
-      <div className='container p-5'>
+      <div className='container'>
         <div className='flex justify-between items-center'>
           {/* logo */}
           <div>
-            <Link to={'/'} ><h1 className='text-lg font-medium cursor-pointer hover:scale-90 transition-all duration-100'>Nana SKB Foundation</h1></Link>
+            <Link to={'/'} ><h1 className='text-xl font-medium cursor-pointer hover:scale-90 hover:text-green-700 transition-all duration-100'>Nana SKB Foundation</h1></Link>
           </div>
           {/* navs */}
           <div className='hidden lg:flex'>
             <ul className='flex gap-x-6'>
               {navs.map((nav,index) =>{
                 return(
-                  <li className={`text-lg font-medium hover:scale-90 transition-all duration-100 ${active === nav.href ? 'text-green-700' : ''}`}  key={index}> <Link to={nav.href} >{nav.name}</Link> </li>
+                  <li className={`text-lg font-medium hover:scale-90 transition-all duration-100 ${active === nav.href ? 'text-green-700 font-extrabold' : ''}`}  key={index}> <Link to={nav.href} >{nav.name}</Link> </li>
                 )
               })}
             </ul>
           </div>
           {/* drawer */}
           <div className='lg:hidden' onClick={() => setOpenMenu(!openMenu)}>
-            <img className='w-8 h-w-8 object-contain cursor-pointer' src={openMenu ? drawer.open : drawer.close} alt='menu_icon'/>
+            {openMenu ? <CloseIcon className='cursor-pointer text-4xl font-semibold text-green-700' fontSize='large' /> : <SegmentIcon className='cursor-pointer text-4xl font-semibold text-green-700' fontSize='large' />}
           </div>
         </div>
         {/* mobile navs */}
@@ -38,7 +38,7 @@ const Header = ({active}) => {
             <ul className=' gap-y-5'>
               {navs.map((nav,index) =>{
                 return(
-                  <li className={`text-xl font-medium hover:border-b transition-all p-2 ${active === nav.href ? 'text-green-700' : ''}`} key={index}> <Link to={nav.href} >{nav.name}</Link> </li>
+                  <li className={`text-xl font-medium hover:text-green-700 transition-all p-2 ${active === nav.href ? 'text-green-700 font-extrabold' : ''}`} key={index}> <Link to={nav.href} >{nav.name}</Link> </li>
                 )
               })}
             </ul>
