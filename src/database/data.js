@@ -2,11 +2,13 @@ const data =
     {
         company:{
             name: 'Nana SKB Foundation',
-            aim: 'Our Mission and Vision'
+            aim: 'Our Mission and Vision',
+            executives: 'Our Executives',
         },
         introduction:{
             header: 'Introduction',
-            content: 'Nana SKB Foundation is a non-governmental and non-profit organization which was incorporated and commenced on 6th June, 2017 with the core objective centered on Education [Formal and Informal] and Child Protection. It is dedicated to the upliftment of the welfare of the youth, children and the vulnerable of Asokore Traditional Area in the Sekyere East District of Ashanti Region through the mobilization and efficient utilization of resources accessibility to keeing life education and sensitization on social vices.'
+            content: 'Nana SKB Foundation is a non-governmental and non-profit organization which was incorporated and commenced on 6th June, 2017 with the core objective centered on Education [Formal and Informal] and Child Protection. It is dedicated to the upliftment of the welfare of the youth, children and the vulnerable of Asokore Traditional Area in the Sekyere East District of Ashanti Region through the mobilization and efficient utilization of resources accessibility to keeing life education and sensitization on social vices.',
+            about: 'About Us'
         },
         briefHistory:{
             header: 'Brief History',
@@ -60,8 +62,72 @@ const data =
             email: 'Mail: nanaskbfoundation@gmail.com',
             phone: 'Tel: +233322495559',
             gps: 'Address: AR-0022-0880',
-            offidceAddress: 'P.O.Box 173, Effiduase – Ashanti.',
+            offidceAddress: 'P.O.Box 173, Effiduase - Ashanti.',
             location: 'Location: Asokore - Ashanti'
+        },
+        executives:[
+            {
+                name: 'Agyeiwaa Gloria',
+                image: '../assets/images/one.jpg',
+                position: 'Chief Executive Officer'
+            },
+            {
+                name: 'Osei Owusu',
+                image: '../assets/images/two.jpg',
+                position: 'Deputy CEO'
+            },
+            {
+                name: 'Owusu Gloria',
+                image: '../assets/images/three.jpg',
+                position: 'Patron'
+            },
+            {
+                name: 'Abena Agyeiwaa',
+                image: '../assets/images/four.jpg',
+                position: 'Financial Secretary'
+            }
+        ],
+        management: {
+            heading: 'Management Of The Foundation',
+            info: 'The following officers constitute the management of the foundation.',
+            list: ['The CEO', 'The Deputy CEO / Administrator', 'The  Financial Officer', 'Programs Officer']
+        },
+        auxilary: {
+            heading: 'Auxilary Staff',
+            list: ['Administrative Assistant', 'Co-coordinator for Education', 'Co- coordinator for child protection'],
+            info: 'Appointment to any of the offices above is on voluntary basis since the foundation is a non-profit making organization.'
+        },
+        board:{
+            title: 'Board of Directors',
+            info: 'The Board of Directors of the foundation is made up of',
+            listOfDirectors: ['The Patron ( chairman of the Board )', 'The CEO of the foundation', 'The Deputy CEO of the foundation' ,'Any other two people from Asokore Traditional Area of which one should be a youth.'],
+        },
+        adminStructure:{
+            heading: 'Administrative Structure',
+            info: 'The Foundation has the distinction of been managed by a core of highly motivated young men and woman including some who have   overcome the challenges of physical disability are acting as inspiring role models in the  community . The administrative structure of the foundation is made up of ',
+        },
+        areas:{
+            heading: 'The areas of focus of the foundation include education (Formal and Informal) and child protection.',
+            education: {
+                title: 'Education',
+                info: 'We operate both formal and informal education of which we have the following modules',
+                formal: {
+                    title: 'Formal Education',
+                    list: ['Education sponsorship (from Basic to Tertiary) with the aid of Kwakyewaa Trust which is established by Nyantakyi - Owusu  Family in honor of their mother under the office of the foundation and affiliate scholarship trust like Mary Adjei Education Trust.', 'Free long vacation classes JHS/SHS (every academic year)', 'Quiz and debate JHS/SHS (every academic year)', 'Provision of teaching and learning materials to educational institutions', 'Asokore Traditional Area.', 'Educational guidance and counseling', 'Resource mobilization for educational development']
+                }
+            },
+            child:{
+                title: 'Child Protection',
+                info: 'The foundation organizes programs on these issues:',
+                issues: ['Drug  Abuse', 'Teenage Pregnancy', 'Child  Trafficking', 'Child Labour', 'Rights of the child']
+            }
+        },
+        pictures: {
+            auxilary: '../assets/images/auxilary.png',
+            contact: '../assets/images/contact.png',
+            relax: '../assets/images/relax.png',
+            team: '../assets/images/team.jpg',
+            management: '../assets/images/management.png',
         }
     }
 
