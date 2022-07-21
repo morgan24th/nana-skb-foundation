@@ -52,8 +52,8 @@ const data =
         creator:{
             name: 'Created by: Kreate-X',
             phone: 'Tel: +233269543715',
-            email: 'Mail: kreate.ex@gmail.com',
-            visit: 'Visit us @: www.kreate-x.io'
+            email: 'Mail: kreatextra@gmail.com',
+            visit: 'Visit us @: www.kreate-x.web.app'
         },
         client:{
             copyRight: 'All rights reserved',
