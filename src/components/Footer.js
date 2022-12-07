@@ -23,7 +23,7 @@ const Footer = () => {
             <h1 className='mt-2 lg:mt-0'>{creator.name}</h1>
             <h1>{creator.email}</h1>
             <h1>{creator.phone}</h1>
-            <h1 className='cursor-pointer hover:text-yellow-400 transition-all duration-200'>{creator.visit}</h1>
+            <a href='https://www.kreate-x.web.app' target={'_blank'} rel="noreferrer"><h1 className='cursor-pointer hover:text-yellow-400 transition-all duration-200'>{creator.visit}</h1></a>
          </div>
         </div>
       </div>

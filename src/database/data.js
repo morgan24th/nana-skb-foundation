@@ -126,9 +126,15 @@ const data =
             auxilary: '../assets/images/auxilary.png',
             contact: '../assets/images/contact.png',
             relax: '../assets/images/relax.png',
-            team: '../assets/images/team.jpg',
+            team: '../assets/images/team.png',
             management: '../assets/images/management.png',
+        },
+        contact:{
+            title:'Please for enquires or any further information kindly leave your message below.',
+            headingOne: 'If you are willing to support the foundation , or if you want any further information or enquiries you can reach to us through the panel provided below',
+            headingTwo: 'Feel free and relax your message is being process you will hear from us soon. Thank you.',
         }
+
     }
 
 export default data;

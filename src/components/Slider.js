@@ -16,13 +16,11 @@ const Slider = ({details}) => {
         return (
             <SwiperSlide key={index}>
               <div>
-                <div>
-                  <img src={detail.image} alt='executive'/>
-                </div>
-                <div className='bg-slate-800 text-white text-center p-3 font-semibold text-lg'>
-                  <h1 className='uppercase'>{detail.name}</h1>
-                  <h1>{detail.position}</h1>
-                </div>
+                <img src={detail.image} alt='executive'/>
+              </div>
+              <div className='bg-slate-800 text-white text-center p-3 font-semibold text-lg'>
+                <h1 className='uppercase'>{detail.name}</h1>
+                <h1>{detail.position}</h1>
               </div>
             </SwiperSlide>
         )

@@ -15,7 +15,7 @@ const Header = ({active}) => {
         <div className='flex justify-between items-center'>
           {/* logo */}
           <div>
-            <Link to={'/'} ><h1 className='text-xl font-medium cursor-pointer hover:scale-90 hover:text-green-700 transition-all duration-100'>Nana SKB Foundation</h1></Link>
+            <Link to={'/'} ><h1 className='text-xl font-semibold cursor-pointer hover:scale-90 text-green-700 transition-all duration-100'>Nana SKB Foundation</h1></Link>
           </div>
           {/* navs */}
           <div className='hidden lg:flex'>

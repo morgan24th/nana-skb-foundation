@@ -43,7 +43,7 @@ const About = () => {
           {/* image */}
         </div>
         {/* mission and vision */}
-        <div>
+        <div className='bg-blue-50'>
           <div className='container'>
             {/* content */}
             <div className='hidden lg:flex mb-8 mt-10 justify-center'>
@@ -64,7 +64,7 @@ const About = () => {
           </div>
         </div>
         {/* administrative structure */}
-        <div>
+        <div className='bg-blue-50'>
           <div className='container'>
             <div>
             {/* heading */}
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
         {/* baord */}
-        <div className='p-5'>
+        <div  className='bg-blue-50'>
           <div className='container'>
             <div className='lg:flex lg:justify-around items-center'>
               {/* content */}
@@ -156,7 +156,7 @@ const About = () => {
                 </div>
               </div>
               {/* image */}
-              <div>
+              <div className='mt-5 lg:mt-0'>
                 <img src={pictures.auxilary} alt='auxilary'/>
               </div>
             </div>
